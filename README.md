@@ -78,6 +78,13 @@ Figure 2.  Cancer-associated genes.
 
 <br>
 
+Figure 2.  Age-associated genes.
+
+<img src="figure/gene_RRAS2.png" style="width: 50%; height: 50%;">
+
+
+
+
 ## IV. Conclusion
 
 
