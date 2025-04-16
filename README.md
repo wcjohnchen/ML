@@ -43,9 +43,23 @@ PolyADB4-LR database (v4.01-LR) stores information for an extended set of polyad
 <br>
 
 ## III. Column Description
+Also see polyADB4-LR database for more information: https://github.com/wcjohnchen/polyadb4_lr
 
 | Column | Description |
 | ---- | ---- |
+|Key |Unique identification for PAS (gene symbol : chromosome : strand : position : type). |
+|Gene Symbol |Abbreviation for gene name. |
+|PasID |PAS identification (chromosome : strand : position). |
+|Type |Long-read-TES-supported polyA site category: TR: PAS found in terminal regions, in which the regions are identified as aggregated overlapping 3’-most exon of isoform of each gene by RefSeq TES annotation; UR: upstream regions of TR;  DR: downstream regions of TR. |
+|PSE |Percentage of samples which PASs were expressed. |
+|AvgRPM |Mean RPM of PAS. |
+|mm10_pAid |Conserved sites in mouse genome (mm10). Non-conserved sites are labeled as "nc". |
+|NumRefSeq |Number of the PAS reads annotated by RefSeq TESs. |
+|NumLENCODE |Number of long-read TESs (from the ENCODE4 PacBio IsoSeq dataset) that were matched to the PAS location. |
+|NumLRGETx |Number of long-read TESs (from the GTEx V9 ONT cDNA dataset) that were matched to the PAS location. |
+|polyAID |Classification probability for putative PAS within a sequence expected to occur (https://github.com/zhejilab/PolyaModelsHuman). |
+|polyAStregth |Score for the usage level of PAS (https://github.com/zhejilab/PolyaModelsHuman). |
+|SVM |Predicted PAS probability by support vector machine (polya_svm v1.1: https://exon.apps.wistar.org/polya_svm/).| ---- | ---- |
 |Key |Unique identification for PAS (gene symbol : chromosome : strand : position : type). |
 |Type |Long-read-TES-supported polyA site category: TR: PAS found in terminal regions, in which the regions are identified as aggregated overlapping 3’-most exon of isoform of each gene by RefSeq TES annotation; UR: upstream regions of TR;  DR: downstream regions of TR. |
 |PSE |Percentage of samples which PASs were expressed. |
