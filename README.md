@@ -30,7 +30,7 @@ VIII. References
 
 ## I. Introduction
 
-
+Alternative polyadenylation has been implicated in association with human diseases.  To further understand the underlying mechanism, the main goal of this study is to use convolutional neural network models PolyAID, PolyAStrength, and APARENT2 to charactize the usage level of polyadenylation sites in the long-read-annotated PolyADB4-LR database.
 
 
 <br>
@@ -42,7 +42,7 @@ VIII. References
 
 <br>
 
-Table 1.  Column Description.  Also see polyADB4-LR database for more information: https://github.com/wcjohnchen/polyadb4_lr
+Table 1.  Column Description.  Also see PolyADB4-LR database for more information: https://github.com/wcjohnchen/polyadb4_lr
 
 | Column | Description |
 | ---- | ---- |
