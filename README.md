@@ -90,6 +90,13 @@ Figure 4.  Skin-associated gene.
 <img src="figure/gene_NUDT21.png" style="width:75%; height:75%;">
 
 
+<br>
+
+Figure 5.  PAS usage prediction using APARENT2.
+
+<img src="figure/plot_APARENT2.png" style="width:50%; height:50%;">
+
+
 
 ## IV. Conclusion
 
