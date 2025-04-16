@@ -94,7 +94,7 @@ Figure 4.  Skin-associated gene.
 
 Figure 5.  PAS usage prediction using APARENT2.
 
-<img src="figure/plot_APARENT2.png" style="width:50%; height:50%;">
+<img src="figure/plot_APARENT2.png" style="width:25%; height:25%;">
 
 
 
