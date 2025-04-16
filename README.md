@@ -13,9 +13,9 @@ I. Introduction
 
 II. Methods
 
-III.
+III. Results
 
-IV.
+IV. Conclusion
 
 V. Technologies
 
@@ -37,7 +37,7 @@ Alternative polyadenylation has been implicated in association with human diseas
 
 ## II. Methods
 
-
+Models.  PolyAID.  PolyAStrength.  PolyA_SVM.
 
 
 <br>
@@ -59,6 +59,12 @@ Table 1.  Column Description.  Also see PolyADB4-LR database for more informatio
 |polyAID |Classification probability for putative PAS within a sequence expected to occur (https://github.com/zhejilab/PolyaModelsHuman). |
 |polyAStregth |Score for the usage level of PAS (https://github.com/zhejilab/PolyaModelsHuman). |
 |SVM |Predicted PAS probability by support vector machine (polya_svm v1.1: https://exon.apps.wistar.org/polya_svm/). |
+
+<br>
+
+## III.
+
+
 
 <br>
 
