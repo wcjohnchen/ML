@@ -108,5 +108,7 @@ Stroup EK, and Ji Z. 2023. Deep learning of human polyadenylation sites at nucle
 
 Wang R, Nambiar R, Zheng D, and Tian B.  2017.  PolyA_DB 3 catalogs cleavage and polyadenylation sites identified by deep sequencing in multiple genomes.  Nucleic Acids Res, 46(D1):D315-D319.  doi: 10.1093/nar/gkx1000.
 
+Weng T, Huang J, Wagner EJ, Ko J, Wu M, Wareing NE, Xiang Y, Chen NY, Ji P, Molina JG, Volcik KA, Han L, Mayes MD, Blackburn MR, and Assassi S.  2020.  Downregulation of CFIm25 amplifies dermal fibrosis through alternative polyadenylation. J Exp Med, 217(2):e20181384.  doi: 10.1084/jem.20181384.
+
 Zheng D, Liu X, and Tian B.  2016.  3'READS+, a sensitive and accurate method for 3' end sequencing of polyadenylated RNA.  RNA, 22(10):1631-9.  doi: 10.1261/rna.057075.116.
 
