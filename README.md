@@ -2,7 +2,7 @@
 
 <br>
 
-<img src="figure/polyadb4_lr.png" margin-left: auto margin-right: auto >
+<img src="figure/cnn_image.jpg" margin-left: auto margin-right: auto >
 
 
 <br>
@@ -62,7 +62,7 @@ Table 1.  Column Description.  Also see polyADB4-LR database for more informatio
 
 <br>
 
-## IV. Database Interaction via Web
+## IV.
 
 
 
