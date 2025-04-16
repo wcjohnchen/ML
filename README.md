@@ -37,7 +37,7 @@ Alternative polyadenylation has been implicated in association with human diseas
 
 ## II. Methods
 
-Models.  PolyAID.  PolyAStrength.  PolyA_SVM.
+Models.  <i>PolyAID</i>:.  <i>PolyAStrength</i>:.  <i>PolyA_SVM</i>:.
 
 
 <br>
