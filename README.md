@@ -64,14 +64,16 @@ Table 1.  Column Description.  Also see PolyADB4-LR database for more informatio
 
 ## III. Results
 
-Figure 1.  Feature correlation of PASs in the terminal regions.
+Figure 1.  Feature correlation of TR PASs.
 
 <img src="figure/tr_corrmatrix.png" style="width: 50%; height: 50%;">
 
 
 <br>
 
+Figure 2.  Cancer-associated genes.
 
+<img src="figure/genes_FIP1L1_CSTF2.png" style="width: 100%; height: 100%;">
 
 
 <br>
