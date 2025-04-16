@@ -30,7 +30,7 @@ VIII. References
 
 ## I. Introduction
 
-PolyADB4-LR database (v4.01-LR) stores information for an extended set of polyadenylation (polyA) sites found in human genome (hg38) using 3’READS+ deep sequencing.  The polyA sites are additionally supported by long read sequencing and data generated from machine learning, and are annotated via NCBI database and by IsoQuant-assigned long reads of ENCODE and GTEx.  This database contains 658,880 entries, 638,089 unique polyA sites, and 33,614 unique genes, and is based on ~2.3 billion 3’READS+ sequencing reads and ~600 million long reads.  With a large-scale data collection, the database can be utilized for data mining to study the role of alternative polyadenylation in various models including human diseases.
+
 
 
 <br>
@@ -94,5 +94,19 @@ I would like to thank Dr. Bin Tian’s lab for data availability and contributio
 
 ## VIII. References
 
+Bogard N, Linder J, Rosenberg AB, and Seelig G. 2019.  A Deep Neural Network for Predicting and Engineering Alternative Polyadenylation. Cell, 178(1):91-106.e23.  doi: 10.1016/j.cell.2019.04.046.
 
+Chen M, Lyu G, Han M, Nie H, Shen T, Chen W, Niu Y, Song Y, Li X, Li H, Chen X, Wang Z, Xia Z, Li W, Tian XL, Ding C, Gu J, Zheng Y, Liu X, Hu J, Wei G, Tao W, and Ni T. 2018.  3' UTR lengthening as a novel mechanism in regulating cellular senescence. Genome Res, 28(3):285-294.  doi: 10.1101/gr.224451.117.
+
+Cheng Y, Miura RM, and Tian B.  2006.  Prediction of mRNA polyadenylation sites by support vector machine.  Bioinformatics, 22(19):2320-5.  doi: 10.1093/bioinformatics/btl394.
+
+Goering R, Engel KL, Gillen AE, Fong N, Bentley DL, and Taliaferro JM.  2021.  LABRAT reveals association of alternative polyadenylation with transcript localization, RNA binding protein expression, transcription speed, and cancer survival. BMC Genomics, 26;22(1):476.  doi: 10.1186/s12864-021-07781-1.
+
+Linder J, Koplik SE, Kundaje A, and Seelig G. 2022.  Deciphering the impact of genetic variation on human polyadenylation using APARENT2. Genome Biol, 23(1):232.  doi: 10.1186/s13059-022-02799-4.
+
+Stroup EK, and Ji Z. 2023. Deep learning of human polyadenylation sites at nucleotide resolution reveals molecular determinants of site usage and relevance in disease. Nature Commun, 14(1):7378:1-17.  doi: 10.1038/s41467-023-43266-3.
+
+Wang R, Nambiar R, Zheng D, and Tian B.  2017.  PolyA_DB 3 catalogs cleavage and polyadenylation sites identified by deep sequencing in multiple genomes.  Nucleic Acids Res, 46(D1):D315-D319.  doi: 10.1093/nar/gkx1000.
+
+Zheng D, Liu X, and Tian B.  2016.  3'READS+, a sensitive and accurate method for 3' end sequencing of polyadenylated RNA.  RNA, 22(10):1631-9.  doi: 10.1261/rna.057075.116.
 
