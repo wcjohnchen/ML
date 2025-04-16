@@ -11,11 +11,11 @@
 
 I. Introduction
 
-II. Schema
+II. Methods
 
-III. Column Description
+III.
 
-IV. Database Interaction via Web
+IV.
 
 V. Technologies
 
@@ -35,14 +35,14 @@ PolyADB4-LR database (v4.01-LR) stores information for an extended set of polyad
 
 <br>
 
-## II. Schema
+## II. Methods
 
 
 
 
 <br>
 
-Table 1.  Column Description  Also see polyADB4-LR database for more information: https://github.com/wcjohnchen/polyadb4_lr
+Table 1.  Column Description.  Also see polyADB4-LR database for more information: https://github.com/wcjohnchen/polyadb4_lr
 
 | Column | Description |
 | ---- | ---- |
@@ -64,22 +64,14 @@ Table 1.  Column Description  Also see polyADB4-LR database for more information
 
 ## IV. Database Interaction via Web
 
-Figure 1.  Viewing a list of available genes in the database.  User database interaction via web is supported by Flask.
 
-<img src="figure/gene_list.png" >
-
-<br>
-
-Figure 2.  Querying for a specific gene.
-
-<img src="figure/query_gene.png" >
 
 
 <br>
 
 ## V. Technologies
 
-Bioinformatics, Database, PostgreSQL, SQL, pgAdmin4, Jupyter Notebook, Python, Flask, VS Code, Git, Linux, Machine Learning, Deep Learning
+Bioinformatics, Machine Learning, Deep Learning, Jupyter Notebook, Python R, VS Code, Git, Linux
 
 
 <br>
@@ -101,5 +93,6 @@ I would like to thank Dr. Bin Tian’s lab for data availability and contributio
 <br>
 
 ## VIII. References
+
 
 
