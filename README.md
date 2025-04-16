@@ -2,7 +2,7 @@
 
 <br>
 
-<img src="figure/cnn_image.jpg" margin-left: auto margin-right: auto >
+<img src="figure/cnn_image.png" margin-left: auto margin-right: auto >
 
 
 <br>
