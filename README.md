@@ -42,10 +42,7 @@ PolyADB4-LR database (v4.01-LR) stores information for an extended set of polyad
 
 <br>
 
-## III. Column Description
-Also see polyADB4-LR database for more information: https://github.com/wcjohnchen/polyadb4_lr
-
-<br>
+Table 1.  Column Description  Also see polyADB4-LR database for more information: https://github.com/wcjohnchen/polyadb4_lr
 
 | Column | Description |
 | ---- | ---- |
