@@ -37,7 +37,7 @@ Alternative polyadenylation has been implicated in association with human diseas
 
 ## II. Methods
 
-Models.  <i>PolyAID</i>:.  <i>PolyAStrength</i>:.  <i>PolyA_SVM</i>:.
+Models.  <i>PolyAID</i>: a deep learning model that consists of a single 1-D convolutional layer and a single bidirectional long short-term memory (LSTM) layer (Stroup <i>et al.</i>, 2023).  Input sequence is one-hot encoded.  Output generates a classification probability for putative PAS within the sequence.  <i>PolyAStrength</i>: a deep learning model with a 1-D convolutional layer and a LSTM layer that calculates a strength score for PAS usage level based on the one-hot encoded input sequence.  <i>PolyA_SVM</i>: .
 
 
 <br>
