@@ -64,6 +64,14 @@ Table 1.  Column Description.  Also see PolyADB4-LR database for more informatio
 
 ## III. Results
 
+Figure 1.  Feature correlation of PASs in the terminal regions.
+
+<img src="figure/tr_corrmatrix.png" >
+
+
+<br>
+
+
 
 
 <br>
