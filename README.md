@@ -78,16 +78,16 @@ Figure 2.  Cancer-associated genes.
 
 <br>
 
-Figure 2.  Age-associated gene.
+Figure 3.  Age-associated gene.
 
 <img src="figure/gene_RRAS2.png" style="width: 50%; height: 50%;">
 
 
 <br>
 
-Figure 2.  Skin-associated gene.
+Figure 4.  Skin-associated gene.
 
-<img src="figure/gene_NUDT21.png" style="width: 50%; height: 50%;">
+<img src="figure/gene_NUDT21.png" style="width:75%; height:75%;">
 
 
 
