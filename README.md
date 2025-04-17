@@ -79,28 +79,28 @@ Figure 1.  Feature correlation of TR PASs.  Pearson correlation was used for com
 
 <br>
 
-Figure 2.  Cancer-associated genes.
+Figure 2.  Profiling of cancer-associated genes, FIP1L1 and CSTF2.
 
 <img src="figure/genes_FIP1L1_CSTF2.png" style="width: 50%; height: 50%;">
 
 
 <br>
 
-Figure 3.  Age-associated gene.
+Figure 3.  Profiling of age-related gene, RRAS2.
 
 <img src="figure/gene_RRAS2.png" style="width: 50%; height: 50%;">
 
 
 <br>
 
-Figure 4.  Skin-associated gene.
+Figure 4.  Profiling of skin-related gene, NUDT21.
 
 <img src="figure/gene_NUDT21.png" style="width:75%; height:75%;">
 
 
 <br>
 
-Figure 5.  PAS usage prediction using APARENT2.
+Figure 5.  PAS usage prediction using APARENT2.  3'UTR Shortening: delta log-odds-narrow < 0.  3'UTR lengthening: delat log-odds-narrow > 0.
 
 <img src="figure/plot_APARENT2.png" style="width:25%; height:25%;">
 
