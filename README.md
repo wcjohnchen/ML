@@ -39,8 +39,7 @@ Alternative polyadenylation has been implicated in association with human diseas
 
 Input.  Data were originally sourced from PolyADB4-LR database and PolyA_DB V3.2 (https://exon.apps.wistar.org/polya_db/v3/).  Surrounding nucleotide sequences for PAS genomic location were extracted from BSgenome.Hsapien.UCSC.hg38 package using R.
 
-Models.  <i>PolyAID</i>: a deep learning model that consists of a single 1-D convolutional layer and a single bidirectional long short-term memory (LSTM) layer (Stroup <i>et al.</i>, 2023).  Input sequence is one-hot encoded.  Output generates a classification probability for putative PAS within the sequence.  <i>PolyAStrength</i>: a deep learning model with a 1-D convolutional layer and a LSTM layer that calculates a strength score for PAS usage level based on the one-hot encoded input sequence (Stroup <i>et al.</i>, 2023).  <i>PolyA_SVM</i>: a classical machine learing model, support vector machine, that predicts putative PAS based on surrounding <i>cis</i> element motifs (Cheng <i>et al.</i>, 2005).
-
+Models.  <i>PolyAID</i>: a deep learning model that consists of a single 1-D convolutional layer and a single bidirectional long short-term memory (LSTM) layer (Stroup <i>et al.</i>, 2023).  Input sequence is one-hot encoded.  Output generates a classification probability for putative PAS within the sequence.  <i>PolyAStrength</i>: a deep learning model with a 1-D convolutional layer and a LSTM layer that calculates a strength score for PAS usage level based on the one-hot encoded input sequence (Stroup <i>et al.</i>, 2023).  <i>PolyA_SVM</i>: a classical machine learing model, support vector machine, that predicts putative PAS based on surrounding <i>cis</i> element motifs (Cheng <i>et al.</i>, 2005).  <i>APARENT2</i>: a deep learning model that is composed of a complex architecture of residual blocks with input sequence represented by one-hot encoding.  The model is used to determine wherether .
 
 <br>
 
