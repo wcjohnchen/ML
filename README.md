@@ -67,7 +67,7 @@ Table 1.  Column Description.  Also see PolyADB4-LR database for more informatio
 
 PASs in the terminal regions, i.e. the 3'UTR regions, were examined in this study.  There are 247,852 unique TR PASs, which associated with 29,434 unique genes.  Correlations between PAS features were compared (Figure 1).  The correlations bewtween the three models were as follow: PolyAID vs PolyAStrength: 0.61; PolyAID vs PolyA_SVM: 0.55; and PolyAStrength vs PolyA_SVM: 0.52.  
 
-There are many diseases associated with cleavage and polyadenlyation activites, including cancer, aging, and skin-related diseases.  For example, FIP1L1 gene, which plays a role in leukemia (Ali <i>et al.</i>, 2023), enhances usage of proximal PASs (global shortening), while knockdown of FIP1L1 leads to usage of distal PASs (global lengthening) (Davis <i>et al.</i>, 2022, Li <i>et al.</i>, 2015).  By profileing FIP1L1 based on expression level and modeling, PAS genomic location chr4:+:53459611 (PolyAID: 0.9986, PolyAStrength: 0.5618, PolyA_SVM: 0.9911) and chr4:+:53459667 (PolyAID: 0.9768, PolyAStrength: -7.8462, PolyA_SVM: 0.9750) ranked at the top two (Figure 2).  The result from APARENT2 shows that FIP1L1 has preference for proximal PASs (delta log-odds-narrow < 0) (Figure 5), which confirms with previous findings.  Similarly, CSTF2 gene, which also involved in cancer and proliferating cells (Xi <i>et al.</i>, 2014), favors 3'UTR shortening and is in accordance with the profiling and APARENT2 result (preference for proximal PASs; delta log-odds-narrow < 0) (Figure 2, 5).
+There are many diseases associated with cleavage and polyadenlyation activites, including cancer, aging, and skin-related diseases.  For example, FIP1L1 gene, which plays a role in leukemia (Ali <i>et al.</i>, 2023), enhances usage of proximal PASs (global shortening), while knockdown of FIP1L1 leads to usage of distal PASs (global lengthening) (Davis <i>et al.</i>, 2022, Li <i>et al.</i>, 2015).  By profileing FIP1L1 based on expression level and modeling, PAS genomic location chr4:+:53459611 (PolyAID: 0.9986, PolyAStrength: 0.5618, PolyA_SVM: 0.9911) and chr4:+:53459667 (PolyAID: 0.9768, PolyAStrength: -7.8462, PolyA_SVM: 0.9750) ranked at the top two (Figure 2).  The result from APARENT2 shows that FIP1L1 has preference for proximal PASs (delta log-odds-narrow < 0) (Figure 5), which confirms with previous findings.  Similarly, CSTF2 gene, which also involved in cancer, and proliferating cells (Xia <i>et al.</i>, 2014), favors 3'UTR shortening and is in accordance with the profiling and APARENT2 result (preference for proximal PASs; delta log-odds-narrow < 0) (Figure 2, 5).  In addition to cancer, RRAS2 gene is also associated to aging.  In skin.
 
 
 <br>
@@ -139,21 +139,27 @@ I would like to thank Dr. Bin Tian’s lab for data availability and contributio
 
 ## VIII. References
 
-Bogard N, Linder J, Rosenberg AB, and Seelig G. 2019.  A Deep Neural Network for Predicting and Engineering Alternative Polyadenylation. Cell, 178(1):91-106.e23.  doi: 10.1016/j.cell.2019.04.046.
+Bogard N, Linder J, Rosenberg AB, and Seelig G. 2019.  A Deep Neural Network for Predicting and Engineering Alternative Polyadenylation.  Cell, 178(1):91-106.e23.  doi: 10.1016/j.cell.2019.04.046.
 
-Chen M, Lyu G, Han M, Nie H, Shen T, Chen W, Niu Y, Song Y, Li X, Li H, Chen X, Wang Z, Xia Z, Li W, Tian XL, Ding C, Gu J, Zheng Y, Liu X, Hu J, Wei G, Tao W, and Ni T. 2018.  3' UTR lengthening as a novel mechanism in regulating cellular senescence. Genome Res, 28(3):285-294.  doi: 10.1101/gr.224451.117.
+Chen M, Lyu G, Han M, Nie H, Shen T, Chen W, Niu Y, Song Y, Li X, Li H, Chen X, Wang Z, Xia Z, Li W, Tian XL, Ding C, Gu J, Zheng Y, Liu X, Hu J, Wei G, Tao W, and Ni T.  2018.  3' UTR lengthening as a novel mechanism in regulating cellular senescence.  Genome Res, 28(3):285-294.  doi: 10.1101/gr.224451.117.
 
 Cheng Y, Miura RM, and Tian B.  2006.  Prediction of mRNA polyadenylation sites by support vector machine.  Bioinformatics, 22(19):2320-5.  doi: 10.1093/bioinformatics/btl394.
 
-Goering R, Engel KL, Gillen AE, Fong N, Bentley DL, and Taliaferro JM.  2021.  LABRAT reveals association of alternative polyadenylation with transcript localization, RNA binding protein expression, transcription speed, and cancer survival. BMC Genomics, 26;22(1):476.  doi: 10.1186/s12864-021-07781-1.
+Davis AG, Johnson DT, Zheng D, Wang R, Jayne ND, Liu M, Shin J, Wang L, Stoner SA, Zhou JH, Ball ED, Tian B, and Zhang DE.  2022.  Alternative polyadenylation dysregulation contributes to the differentiation block of acute myeloid leukemia.  Blood, 139(3):424-438.  doi: 10.1182/blood.2020005693.
 
-Linder J, Koplik SE, Kundaje A, and Seelig G. 2022.  Deciphering the impact of genetic variation on human polyadenylation using APARENT2. Genome Biol, 23(1):232.  doi: 10.1186/s13059-022-02799-4.
+Goering R, Engel KL, Gillen AE, Fong N, Bentley DL, and Taliaferro JM.  2021.  LABRAT reveals association of alternative polyadenylation with transcript localization, RNA binding protein expression, transcription speed, and cancer survival.  BMC Genomics, 26;22(1):476.  doi: 10.1186/s12864-021-07781-1.
 
-Stroup EK, and Ji Z. 2023. Deep learning of human polyadenylation sites at nucleotide resolution reveals molecular determinants of site usage and relevance in disease. Nature Commun, 14(1):7378:1-17.  doi: 10.1038/s41467-023-43266-3.
+Li W, You B, Hoque M, Zheng D, Luo W, Ji Z, Park JY, Gunderson SI, Kalsotra A, Manley JL, and Tian B.  2015.  Systematic profiling of poly(A)+ transcripts modulated by core 3' end processing and splicing factors reveals regulatory rules of alternative cleavage and polyadenylation.  PLoS Genet, 11(4):e1005166.  doi: 10.1371/journal.pgen.1005166.
+
+Linder J, Koplik SE, Kundaje A, and Seelig G. 2022.  Deciphering the impact of genetic variation on human polyadenylation using APARENT2.  Genome Biol, 23(1):232.  doi: 10.1186/s13059-022-02799-4.
+
+Stroup EK, and Ji Z. 2023. Deep learning of human polyadenylation sites at nucleotide resolution reveals molecular determinants of site usage and relevance in disease.  Nature Commun, 14(1):7378:1-17.  doi: 10.1038/s41467-023-43266-3.
 
 Wang R, Nambiar R, Zheng D, and Tian B.  2017.  PolyA_DB 3 catalogs cleavage and polyadenylation sites identified by deep sequencing in multiple genomes.  Nucleic Acids Res, 46(D1):D315-D319.  doi: 10.1093/nar/gkx1000.
 
-Weng T, Huang J, Wagner EJ, Ko J, Wu M, Wareing NE, Xiang Y, Chen NY, Ji P, Molina JG, Volcik KA, Han L, Mayes MD, Blackburn MR, and Assassi S.  2020.  Downregulation of CFIm25 amplifies dermal fibrosis through alternative polyadenylation. J Exp Med, 217(2):e20181384.  doi: 10.1084/jem.20181384.
+Weng T, Huang J, Wagner EJ, Ko J, Wu M, Wareing NE, Xiang Y, Chen NY, Ji P, Molina JG, Volcik KA, Han L, Mayes MD, Blackburn MR, and Assassi S.  2020.  Downregulation of CFIm25 amplifies dermal fibrosis through alternative polyadenylation.  J Exp Med, 217(2):e20181384.  doi: 10.1084/jem.20181384.
+
+Xia Z, Donehower LA, Cooper TA, Neilson JR, Wheeler DA, Wagner EJ, and Li W.  2014.  Dynamic analyses of alternative polyadenylation from RNA-seq reveal a 3'-UTR landscape across seven tumour types.  Nat Commun, 5:5274.  doi: 10.1038/ncomms6274.
 
 Zheng D, Liu X, and Tian B.  2016.  3'READS+, a sensitive and accurate method for 3' end sequencing of polyadenylated RNA.  RNA, 22(10):1631-9.  doi: 10.1261/rna.057075.116.
 
