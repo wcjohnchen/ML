@@ -65,7 +65,14 @@ Table 1.  Column Description.  Also see PolyADB4-LR database for more informatio
 
 ## III. Results
 
-Figure 1.  Feature correlation of TR PASs.
+PASs in the terminal regions, i.e. the 3'UTR regions, were examined in this study.  There are 247,852 unique TR PASs, which associated with 29,434 unique genes.  Correlations between PAS features were compared (Figure 1).  The correlation bewtween the three models was as follow: PolyAID vs PolyAStrength: 0.61; PolyAID vs Poly_SVM: 0.55; and PolyAStrength vs Poly_SVM: 0.52.  
+
+
+
+
+<br>
+
+Figure 1.  Feature correlation of TR PASs.  Pearson correlation was used for comparison.
 
 <img src="figure/tr_corrmatrix.png" style="width: 50%; height: 50%;">
 
