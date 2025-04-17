@@ -65,9 +65,9 @@ Table 1.  Column Description.  Also see PolyADB4-LR database for more informatio
 
 ## III. Results
 
-PASs in the terminal regions, i.e. the 3'UTR regions, were examined in this study.  There are 247,852 unique TR PASs, which associated with 29,434 unique genes.  Correlations between PAS features were compared (Figure 1).  The correlation bewtween the three models was as follow: PolyAID vs PolyAStrength: 0.61; PolyAID vs Poly_SVM: 0.55; and PolyAStrength vs Poly_SVM: 0.52.  
+PASs in the terminal regions, i.e. the 3'UTR regions, were examined in this study.  There are 247,852 unique TR PASs, which associated with 29,434 unique genes.  Correlations between PAS features were compared (Figure 1).  The correlations bewtween the three models were as follow: PolyAID vs PolyAStrength: 0.61; PolyAID vs PolyA_SVM: 0.55; and PolyAStrength vs PolyA_SVM: 0.52.  
 
-
+There are many diseases associated with cleavage and polyadenlyation activites, including cancer, aging, and skin-related diseases.  For example, FIP1L1 gene, which plays a role in leukemia (Ali <i>et al.</i>, 2023), enhances usage of proximal PASs (global shortening), while knockdown of FIP1L1 leads to usage of distal PASs (global lengthening) (Davis et al., 2022, Li et al., 2015).  By profileing FIP1L1 based on expression level and modeling (PolyAID: 0.9986, PolyAStrength: 0.5618, PolyA_SVM: 0.9911), PAS genomic location chr4:+:53459611 and chr4:+:53459667 ranked at the top two (Figure 2).  The result from APARENT2 shows that FIP1L1 has preference for proximal PASs, which confirms with previous findings.
 
 
 <br>
