@@ -108,7 +108,7 @@ Figure 5.  PAS usage prediction using APARENT2.  3'UTR Shortening: delta log-odd
 
 ## IV. Conclusion
 
-The present study uses deep learning (PolyAID, PolyAStrength, APARENT2) and machine learning (PolyA_SVM) methods to further characterize the profile of long-read-annotated 3'UTR PASs in the PolyADB-LR database.  By acquring the PAS usage statistics through advanced learning, the database may serve as an insight for potential therapeutics biomarkers and targets for disease models.
+The present study uses deep learning (PolyAID, PolyAStrength, APARENT2) and machine learning (PolyA_SVM) methods to further characterize the profile of long-read-annotated 3'UTR PASs in the PolyADB4-LR database.  By acquring the PAS usage statistics through advanced learning, the database may serve as an insight for potential therapeutics biomarkers and targets for disease models.
 
 
 
