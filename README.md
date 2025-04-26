@@ -30,20 +30,20 @@ VIII. References
 
 ## I. Introduction
 
-Alternative polyadenylation has been implicated in association with human diseases.  To further understand the underlying mechanism, the main goal of this study is to use deep learning models PolyAID, PolyAStrength, and APARENT2 to characterize the usage level of polyadenylation sites in the long-read-annotated PolyADB4-LR database.
+Alternative polyadenylation has been implicated in association with human diseases.  To further understand the underlying mechanism, the main goal of this study is to use deep learning models PolyAID, PolyAStrength, and APARENT2 to characterize the usage level of polyadenylation sites in the long-read-annotated PolyADB-LR database (v3x-LR).
 
 
 <br>
 
 ## II. Methods
 
-Input.  Data were originally sourced from PolyADB4-LR database, reference to PolyA_DB V3.2 (https://exon.apps.wistar.org/polya_db/v3/).  Surrounding nucleotide sequences for PAS genomic location were extracted from BSgenome.Hsapien.UCSC.hg38 package using R.
+Input.  Data were originally sourced from PolyADB-v3x-LR database, reference to PolyA_DB V3.2 (https://exon.apps.wistar.org/polya_db/v3/).  Surrounding nucleotide sequences for PAS genomic location were extracted from BSgenome.Hsapien.UCSC.hg38 package using R.
 
 Models.  <i>PolyAID</i>: a deep learning model that consists of a single 1-D convolutional layer and a single bidirectional long short-term memory (LSTM) layer (Stroup <i>et al.</i>, Nature Commun, 2023).  Input sequence is one-hot encoded.  And output generates a classification probability for putative PAS within the sequence.  <i>PolyAStrength</i>: a deep learning model with a 1-D convolutional layer and a LSTM layer that calculates a strength score for PAS usage level based on the one-hot encoded input sequence (Stroup <i>et al.</i>, Nature Commun, 2023).  <i>PolyA_SVM</i>: a classical machine learing model, support vector machine, that predicts putative PAS based on surrounding <i>cis</i> element motifs (Cheng <i>et al.</i>, Genome Res, 2005).  <i>APARENT2</i>: a deep learning model that is composed of an architecture of residual blocks with input sequence represented by one-hot encoding (Bogard <i>et al.</i>, Cell, 2019; Linder <i>et al.</i>, Genome Biol, 2022).  The model is used for determining gene's preference between short and long isoforms.
 
 <br>
 
-Table 1.  Column Description.  Also see PolyADB4-LR database for more information: https://github.com/wcjohnchen/polyadb4_lr
+Table 1.  Column Description.  Also see PolyADB-v3x-LR database for more information: https://github.com/wcjohnchen/database
 
 | Column | Description |
 | ---- | ---- |
@@ -108,7 +108,7 @@ Figure 5.  PAS usage prediction using APARENT2.  3'UTR Shortening: delta log-odd
 
 ## IV. Conclusion
 
-The present study uses deep learning (PolyAID, PolyAStrength, APARENT2) and machine learning (PolyA_SVM) methods to further characterize the profile of long-read-annotated 3'UTR PASs in the PolyADB4-LR database.  By acquring the PAS usage statistics through advanced learning, the database may serve as an insight for potential therapeutics biomarkers and targets for disease models.
+The present study uses deep learning (PolyAID, PolyAStrength, APARENT2) and machine learning (PolyA_SVM) methods to further characterize the profile of long-read-annotated 3'UTR PASs in the PolyADB-v3x-LR database.  By acquring the PAS usage statistics through advanced learning, the database may serve as an insight for potential therapeutics biomarkers and targets for disease models.
 
 
 
