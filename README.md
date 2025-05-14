@@ -116,7 +116,7 @@ The present study uses deep learning (PolyAID, PolyAStrength, APARENT2) and mach
 
 ## V. Technologies
 
-Bioinformatics, Machine Learning, Deep Learning, Jupyter Notebook, Python R, VS Code, Git, Linux
+Bioinformatics, Machine Learning, Deep Learning, Jupyter Notebook, Python, R, VS Code, Git, Linux
 
 
 <br>
